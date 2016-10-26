@@ -450,7 +450,7 @@ img.circle-icon {
 img.section-icon {
   margin: auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 350px;
 }
 
 img.logo {
@@ -526,6 +526,20 @@ body {
   .no-top {
     margin-top: 0;
   }
+  section {
+    text-align: center;
+  }
+  section.middle {
+    padding: 20px;
+  }
+  .title-line {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  img.section-icon {
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 1198px) {
@@ -549,8 +563,11 @@ body {
     padding: 60px;
   }
   section.bottom {
-    padding: 60px 0;
+    padding: 60px;
     padding-bottom: 100px;
+  }
+  section.top {
+    padding: 60px;
   }
 }
 
@@ -576,8 +593,19 @@ body {
   h3 {
     font-size: 20px;
   }
-  .grey {
-
+  section.middle {
+    padding: 30px;
+  }
+  section.bottom {
+    padding: 30px;
+    padding-bottom: 60px;
+  }
+  section.top {
+    padding: 30px;
+    padding-top: 60px;
+  }
+  img.section-icon {
+    max-width: 250px;
   }
 }
 
