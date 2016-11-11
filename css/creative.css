@@ -487,6 +487,13 @@ body {
   }
 }
 
+@media (max-width: 480px) {
+  .inner-text {
+    font-size: 10px;
+    padding-top: 10px;
+  }
+}
+
 @media (max-width: 450px) {
   .text-logo {
     width: 65%;
@@ -534,5 +541,11 @@ body {
 @media (min-width: 1079px) {
   img.circle-icon {
     width: 170px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .text-logo {
+    width: 90%;
   }
 }
